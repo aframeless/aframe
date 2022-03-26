@@ -1,5 +1,5 @@
 var debugLib = require('debug');
-var extend = require('object-assign');
+var extend = Object.assign;
 
 var settings = {
   colors: {
