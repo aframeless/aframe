@@ -2,7 +2,7 @@
 
 /* Centralized place to reference utilities since utils is exposed to the user. */
 var debug = require('./debug');
-var deepAssign = require('deep-assign');
+var deepAssign = require('lodash.merge');
 var device = require('./device');
 var objectAssign = Object.assign;
 var objectPool = require('./object-pool');

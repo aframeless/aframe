@@ -138,7 +138,7 @@ diff({a: 1, b: 2, c: 3}, {b: 2, c: 4})
 
 ### `AFRAME.utils.extendDeep (target, source, [source, ...])`
 
-[Deep Assign](https://www.npmjs.com/package/deep-assign)
+[Deep Assign](https://www.npmjs.com/package/lodash.merge)
 
 ## `AFRAME.utils.device`
 
